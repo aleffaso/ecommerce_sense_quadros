@@ -6,7 +6,7 @@
         <meta name="Sense Quadros" content="" />
         <meta name="Aleff Oliveira" content="" />
         <title>Sense Quadros</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -40,6 +40,7 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#gallery">Galeria</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" target="__blank" href="/dist/carrinho.php"><i class="fas fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -164,122 +165,121 @@
 
                     <!-- Galley pictures edited on galleryFilter.css and galleryFilter.js-->
                     <div class="container-filter" style="text-align:center;">
-                        <div class="gallery">
-                            <!-- 
-                            <div class="filter news">
-                                <div id="placing_news"></div>
-                            </div>
-                            -->
-                            <div class="filter category0">
-                                <div id="placing_abstratos"></div>
-                            </div>
-                            <!-- 
-                            <div class="filter category1">
-                                <div id="placing_animais"></div>
-                          </div>
-      
-                          <div class="filter category2">
-                                <div id="placing_arquitetura"></div>
-                          </div>
-      
-                          <div class="filter category3">
-                                <div id="placing_bebidas"></div>
-                          </div>
-      
-                           <div class="filter category4">
-                                <div id="placing_carros"></div>
-                          </div>
-      
-                         <div class="filter category5">
-                                <div id="placing_ceu"></div>
-                          </div>
-      
-                          <div class="filter category6">
-                                <div id="placing_cidades"></div>
-                          </div>
-      
-                          <div class="filter category7">
-                                <div id="placing_comidas"></div>
-                          </div>
-      
-                          <div class="filter category8">
-                                <div id="placing_espirituais"></div>
-                          </div>
-      
-                          <div class="filter category9">
-                                <div id="placing_flores"></div>
-                          </div>
-      
-                          <div class="filter category10">
-                                <div id="placing_frases"></div>
-                          </div>
-      
-                          <div class="filter category11">
-                                <div id="placing_lugares"></div>
-                          </div>
-      
-                          <div class="filter category12">
-                                <div id="placing_mar"></div>
-                          </div>
-      
-                          <div class="filter category13">
-                                <div id="placing_musica"></div>
-                          </div>
-      
-                          <div class="filter category14">
-                                <div id="placing_natureza"></div>
-                          </div>
-      
-                          <div class="filter category15">
-                                <div id="placing_neon"></div>
-                          </div>
-      
-                          <div class="filter category16">
-                                <div id="placing_pessoas"></div>
-                          </div>
-      
-                          <div class="filter category17">
-                                <div id="placing_plantas"></div>
-                          </div>
-      
-                          <div class="filter category18">
-                                <div id="placing_vintage"></div>
-                          </div>
-      
-                          <div class="filter amarelo">
-                                <div id="placing_amarelo"></div>
-                          </div>
-      
-                          <div class="filter azul">
-                                <div id="placing_azul"></div>
-                          </div>
-      
-                          <div class="filter colorido">
-                                <div id="placing_colorido"></div>
-                          </div>
-      
-                          <div class="filter laranja">
-                                <div id="placing_laranja"></div>
-                          </div>
-      
-                          <div class="filter preto_branco">
-                                <div id="placing_preto_branco"></div>
-                          </div>
-      
-                          <div class="filter rosa">
-                                <div id="placing_rosa"></div>
-                          </div>
-      
-                          <div class="filter verde">
-                                <div id="placing_verde"></div>
-                          </div>
-      
-                          <div class="filter vermelho">
-                                <div id="placing_vermelho"></div>
-                          </div>-->
-
-
+                      <div class="gallery">
+                        <!-- 
+                        <div class="filter news">
+                            <div id="placing_news"></div>
                         </div>
+                        -->
+                        
+                        <div class="filter category0">
+                          <div id="placing_abstratos"></div>
+                        </div>
+                        
+                        <div class="filter category1">
+                          <div id="placing_animais"></div>
+                        </div>
+
+                        <div class="filter category2">
+                          <div id="placing_arquitetura"></div>
+                        </div>
+                        
+                        <div class="filter category3">
+                          <div id="placing_bebidas"></div>
+                        </div>
+    
+                        <div class="filter category4">
+                          <div id="placing_carros"></div>
+                        </div>
+    
+                        <div class="filter category5">
+                          <div id="placing_ceu"></div>
+                        </div>
+                        <!--
+                        <div class="filter category6">
+                          <div id="placing_cidades"></div>
+                        </div>
+    
+                        <div class="filter category7">
+                          <div id="placing_comidas"></div>
+                        </div>
+    
+                        <div class="filter category8">
+                          <div id="placing_espirituais"></div>
+                        </div>
+    
+                        <div class="filter category9">
+                          <div id="placing_flores"></div>
+                        </div>
+    
+                        <div class="filter category10">
+                          <div id="placing_frases"></div>
+                        </div>
+    
+                        <div class="filter category11">
+                          <div id="placing_lugares"></div>
+                        </div>
+    
+                        <div class="filter category12">
+                          <div id="placing_mar"></div>
+                        </div>
+    
+                        <div class="filter category13">
+                          <div id="placing_musica"></div>
+                        </div>
+    
+                        <div class="filter category14">
+                          <div id="placing_natureza"></div>
+                        </div>
+    
+                        <div class="filter category15">
+                          <div id="placing_neon"></div>
+                        </div>
+    
+                        <div class="filter category16">
+                          <div id="placing_pessoas"></div>
+                        </div>
+    
+                        <div class="filter category17">
+                          <div id="placing_plantas"></div>
+                        </div>
+    
+                        <div class="filter category18">
+                          <div id="placing_vintage"></div>
+                        </div>
+    
+                        <div class="filter amarelo">
+                          <div id="placing_amarelo"></div>
+                        </div>
+    
+                        <div class="filter azul">
+                          <div id="placing_azul"></div>
+                        </div>
+    
+                        <div class="filter colorido">
+                          <div id="placing_colorido"></div>
+                        </div>
+    
+                        <div class="filter laranja">
+                          <div id="placing_laranja"></div>
+                        </div>
+    
+                        <div class="filter preto_branco">
+                          <div id="placing_preto_branco"></div>
+                        </div>
+    
+                        <div class="filter rosa">
+                          <div id="placing_rosa"></div>
+                        </div>
+    
+                        <div class="filter verde">
+                          <div id="placing_verde"></div>
+                        </div>
+    
+                        <div class="filter vermelho">
+                          <div id="placing_vermelho"></div>
+                        </div>-->
+                      </div> 
                     </div>
                 </section>
 
@@ -513,10 +513,9 @@
 
                   
                     <div style="text-align:center;">
-                    <div style="padding-bottom: 20px;"id="placing_select"></div>
+                    <div style="padding-bottom: 10px;"id="placing_select"></div>
 
-                    <p><b>Tamanho</b></br>
-
+                    <p><b>Tamanho</b></br>          
                       <form target=__blank id="checkout" action="carrinho.php" method="get">
 
                         <input type="radio" id="pequeno" name="tamanho" value="pequeno" checked /> <label for="pequeno">P (30cm x 40cm) - R$ 257,00</label><br/>
@@ -533,9 +532,14 @@
 
                         <div style="text-align:center; padding-bottom: 20px;">
 
-                        <button type="button" class="btn btn-primary">Adicionar ao carrinho</button>
+                        <button type="button" class="btn filter-button-secundary" onclick="addToCardFunction()">Adicionar ao carrinho</button>
+
+                        <div style="text-align:center;" >
+                          <input type="submit"  class="btn filter-button" onclick="checkoutSubmitFunction()" value="Ir para o checkout"></input>
+                        </div> 
 
                         <input type="hidden" id="selectedImage" name="selectedImage" value=""/>
+                        <input type="hidden" id="keyID" name="keyID" value=""/>
 
                         </div>
                       </form>
@@ -548,7 +552,7 @@
                   <div id="placing_select_right_frame"></div>
                   <div style="padding-bottom: 10px;" class="row">                    
                     <div class="columnPreview" id="placing_select_left_mock"></div>
-                    <div class="columnPreview" id="placing_select_right_mock">></div>
+                    <div class="columnPreview" id="placing_select_right_mock"></div>
                   </div>
                 </div>
 
@@ -561,18 +565,13 @@
                   <div>
                   <h5><p><span>&#10005;</span>  Não acompanha parafusos e buchas de fixação</h5>
                   <h5><p><span>&#10003;</span>  Possui gancho para fixação do parafuso</h5>    
-                  <h5><p><span>&#10003;</span>  Impressão de alta qualidade</h5>
                   <h5><p><span>&#10003;</span>  Com moldura (preta ou branca)</h5>
+                  <h5><p><span>&#10003;</span>  Impressão de alta qualidade</h5>
                   <h5><p><span>&#10003;</span>  Pronto para parede</h5>
                   <h5><p><span>&#10003;</span>  Com vidro</h5>
                   </div>
                 </div>
 
-                <hr>
-
-                <div style="padding-bottom: 20px; text-align:center;" >
-                            <input type="submit"  class="btn btn-primary" onclick="submitFunction()" value="Checkout"></input>
-                </div> 
               </div>
             </div>
           </div>

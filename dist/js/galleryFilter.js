@@ -44,6 +44,29 @@ $(document).ready(function(){
             });
 });
 
+$(document).ready(function(){
+
+    $(".filter-button-secundary").click(function(){
+        var value = $(this).attr('data-filter');
+
+        if(value == "all")
+        {
+            $('.filter').show('1000');
+        }
+        else
+        {
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+
+        }
+
+                if ($(".filter-button-secundary").removeClass("active")) {
+            $(this).removeClass("active");
+            }
+                $(this).addClass("active");
+            });
+});
+
 //var numberAll = 10;
 var numberAbstratos = 6;
 var numberAnimais = 17;
@@ -82,7 +105,7 @@ var placeImageAbstratos = function(x) {
     }
         document.getElementById("placing_abstratos").innerHTML = img_abstratos;
     };
-placeImageAbstratos(numberAbstratos); /*
+placeImageAbstratos(numberAbstratos); 
 
 var placeImageAnimais = function(x) {
     var img_animais="";

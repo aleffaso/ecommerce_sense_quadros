@@ -60,3 +60,4 @@ $(() => {
         interval = window.setInterval(cycle, 6000);
     });
 });
+

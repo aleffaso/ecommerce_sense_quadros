@@ -89,9 +89,6 @@ $(document).ready(function(){
  function showCart(){
     var parameters = location.search.substring(1).split("&");
     var temp = parameters[0].split("=");
-    var globalSize;
-    var globalColor;
-    var globalImageSelected;
     l = unescape(temp[1]);
 
     temp = parameters[1].split("=");
@@ -99,9 +96,13 @@ $(document).ready(function(){
 
     temp = parameters[2].split("=");
     m = unescape(temp[1]);
+
     document.getElementById("tamanho").value = l;
     document.getElementById("cor").value = p;
     document.getElementById("selectedImage").value = m;
+
+
+    console.log(n);
 
     getItemDescription(l,p,m);
 

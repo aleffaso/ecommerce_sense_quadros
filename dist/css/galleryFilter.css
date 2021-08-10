@@ -1,22 +1,19 @@
 .gallery {
-    display:absolute;
-    align-items: center;
+    display: absolute;
     overflow: scroll;
     max-height: 992px;
     width: auto;
-    grid-template-columns: repeat(2, 10fr);
   }
 
 
 .gallery__img{
-  height: 200px;
+  height:200px;
   padding: 5px 5px;
 }
 
 @media (max-width: 992px) {
     .gallery{
         display:absolute;
-        align-items: center;
         overflow: scroll;
         max-height: 600px;
     }

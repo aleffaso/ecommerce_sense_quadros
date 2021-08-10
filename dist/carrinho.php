@@ -39,10 +39,12 @@
           <li class="subtotal">Subtotal</li>
         </ul>
       </div>
+
       <div class="basket-product">
             <div id="tamanho"></div>
             <div id="cor"></div>
             <div id="selectedImage"></div>
+
         <div class="item">
           <div class="product-image">
             <div id="placing_select_image"></div>
@@ -56,8 +58,8 @@
                 <strong>Tamanho:</strong> <span id="selected_frame_size"></span>
             </p>
           </div>
-          
         </div>
+
         <div class="price" id="price-unit"></div>
         <div class="quantity">
           <input type="number" value="1" min="1" class="quantity-field">
@@ -67,7 +69,11 @@
           <button>Remover</button>
         </div>
       </div>
+      
     </div>
+
+    
+
     <aside style="padding-top:60px;">
       <div class="summary">
         <div class="summary-total-items"><span class="total-items"></span> Item no seu carrinho</div>

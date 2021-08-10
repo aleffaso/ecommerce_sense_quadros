@@ -3,9 +3,6 @@
 function showCart(){
     var parameters = location.search.substring(1).split("&");
     var temp = parameters[0].split("=");
-    var globalSize;
-    var globalColor;
-    var globalImageSelected;
 
     l = unescape(temp[1]);
     temp = parameters[1].split("=");
